@@ -1,0 +1,173 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bebas-neue-regular {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+	--cor0: rgb(254, 255, 212);
+	--cor1: rgba(255, 0, 0, 0.973);
+	--cor2: rgba(73, 0, 0, 0.514);
+	--cor3: rgb(163, 52, 163);
+	--cor4: rgb(255, 255, 255);
+	--cor5: rgb(71, 0, 71);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: var(--cor0);
+}
+
+header {
+	background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+	min-height: 200px;
+	text-align: center;
+	border-radius: 20;
+}
+
+header h1 {
+	font-size: 4em;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.527);
+	font-weight: normal;
+	font-family: 'Bebas Neue', sans-serif;
+	padding-top: 10px;
+}
+
+header p {
+	color: white;
+	font-size: 1.2em;
+	max-width: 600%;
+	padding: 10px;
+	padding-top: 0px;
+	margin: auto;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+}
+
+nav {
+	background-color: var(--cor5);
+	margin-top: 40px;
+	padding: 10px;
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.486);
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+nav a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+	border-radius: 7px;
+	transition-duration: 0.5s;
+}
+
+nav a:hover {
+	background-color: var(--cor3);
+	color: var(--cor5);
+}
+
+main {
+	min-width: 300px;
+	max-width: 1000px;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.459);
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px;
+}
+
+main h2 {
+	color: black;
+	background-image: linear-gradient(to right, var(--cor2), transparent, transparent);
+	font-weight: bold;
+	text-indent: 7px;
+	font-weight: normal;
+	font-family: 'Bebas Neue', sans-serif;
+	border-radius: 5px;
+}
+
+main p {
+	margin: 15px 0px;
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+main ul {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-indent: 30px;
+}
+main li {
+	margin: 7px 0px;
+	text-align: justify;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+	max-width: 350px;
+	margin: auto;
+	display: block;
+	padding: 5px;
+}
+
+img.arte {
+	max-width: 350px;
+}
+
+img.primitivo {
+	display: block;
+}
+img.antigo {
+	max-width: 350px;
+}
+img.medieval {
+	max-width: 400px;
+}
+img.discord {
+	display: inline-block;
+}
+
+aside {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.719), var(--cor4), white);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 50px;
+	padding-top: 10px;
+}
+aside ul {
+	list-style-position: inside;
+	list-style-type: '\2714';
+	padding-top: 5px;
+}
+aside h3 {
+	background-image: linear-gradient(to right, rgb(0, 0, 0), var(--cor4), white);
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	margin: -10px -10px 0px -10px;
+	border-radius: 10px 10px 0px 0px;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: lighter;
+}
+
+footer {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 5px;
+	font-weight: bolder;
+	text-shadow: 0px 0px 8px 9px rgb(255, 255, 255);
+}

@@ -61,7 +61,7 @@ nav {
 
 nav a {
 	color: white;
-	padding: 10px;
+	padding: 5px;
 	text-decoration: none;
 	font-weight: bolder;
 	border-radius: 7px;
@@ -138,6 +138,7 @@ img.medieval {
 }
 img.discord {
 	display: inline-block;
+	max-width: 300px;
 }
 
 aside {
